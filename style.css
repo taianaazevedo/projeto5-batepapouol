@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.pagInteira{
+    display: block;
+    margin-top: 0% 50% 0% 50%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 75px;
+}
+header img{
+    margin: 16px 200px 11px 22px;
+    width: 75px;
+    height: 53px;
+}
+header ion-icon {
+    margin: 25px 22px 24px 20px;
+    font-size: 35px;
+}
+.conteudo{
+    background-color: #E5E5E5;
+    width: 400px;
+    height: 450px;
+}
+.mensagem {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 75px;
+}
+.mensagem ion-icon{
+    margin: 27px 18px 27px 10px;
+    font-size: 35px;
+
+}
+.escreverTexto{
+    margin: 25px 160px 25px 17px;
+    width: 145px;
+    height: 30px;
+}
+input {
+    border-color: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-style: italic;
+    
+}
