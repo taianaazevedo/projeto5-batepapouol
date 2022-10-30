@@ -26,6 +26,7 @@ header ion-icon {
     background-color: #E5E5E5;
     width: 400px;
     height: 450px;
+    overflow-y: scroll;
 }
 .mensagem {
     display: flex;
@@ -33,7 +34,7 @@ header ion-icon {
     justify-content: space-evenly;
     background-color: #FFFFFF;
     width: 400px;
-    height: 75px;
+    height: auto;
 }
 .mensagem ion-icon{
     margin: 27px 18px 27px 10px;
@@ -52,4 +53,28 @@ input {
     font-size: 18px;
     font-style: italic;
     
+}
+.mensagem-chat {
+    justify-content: center;
+    text-align: justify;
+    background-color: #FFFFFF;
+    width: 380px;
+    height: auto;
+    margin: 5px 0px 5px 0px;
+    border-radius: 3px;
+    word-break:keep-all      
+}
+.status{
+    background-color: #DCDCDC;
+    height: 40px;
+}
+.reservada{
+    background-color: #FFDEDE;
+    height: 40px;
+}
+.normal {
+    background-color: #FFFFFF;
+}
+.hora{
+    color:#AAAAAA;
 }
