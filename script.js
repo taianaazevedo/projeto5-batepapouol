@@ -1,6 +1,4 @@
 let usuario;
-
-
 // função que pergunta o nome do usuário:
 function perguntaNome() {
     usuario = prompt('Qual seu nome?');
@@ -102,4 +100,3 @@ enviarMensagem();
 function recarregaChat(){
     window.location.reload();
 }
-
